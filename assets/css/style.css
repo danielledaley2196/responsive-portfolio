@@ -107,3 +107,13 @@ input.submit {
     background-color: #4aaaa5;
     color: #ffffff;
 }
+footer.foot {
+    background-color: #666666;
+    height: 50px;
+    margin: 0 auto;
+    border-top: 4px solid #4aaaa5;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
