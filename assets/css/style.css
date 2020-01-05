@@ -38,6 +38,7 @@ h2 {
     border-bottom: 3px solid #777777;
     padding-bottom: 20px;
     color: #4aaaa5;
+    width:100%;
 }
 img.profilepic {
     height: 200px;
@@ -64,4 +65,45 @@ div.colum1 {
 }
 div.colum2 {
     padding: 0;
+}
+div.portImg {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+img.portPic {
+    display: block;
+    height:200px;
+    width: auto;
+}
+div.wrapper {
+    position: relative;
+}
+div.imagePort {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:50px;
+    width: 300px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+input.message {
+    height:300px
+}
+input.submit {
+    height: 30px;
+    width: 100px;
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
