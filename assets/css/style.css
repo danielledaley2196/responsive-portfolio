@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', 'Helvetica Nue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/greek-vase.png");
+}
+header.theHeader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    border-bottom: 3px solid #777777;
+}
+ul.navBar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid #777777;
+    height:81px;
+}
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+a:visited {
+    text-decoration: none;
+    color: #777777
+}
+h1.name {
+    background: #4aaaa5;
+    height: 70px;
+    width: 250px;
+    color: #ffffff;
+    padding-top: 5px;
+    font-size: xx-large;
+}
+h2 {
+    border-bottom: 3px solid #777777;
+    padding-bottom: 20px;
+    color: #4aaaa5;
+}
+img.profilepic {
+    height: 200px;
+    width: 200px;
+    transform: rotate(90deg);
+    float: left;
+    margin: 0 auto;
+}
+div.myBox {
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #777777;
+    background-color: #ffffff;
+    margin-top: 20px;
+    color: #777777;
+}
+p {
+    overflow: wrap;
+    color: #777777;
+}
+div.colum1 {
+    padding: 0;
+}
+div.colum2 {
+    padding: 0;
+}
